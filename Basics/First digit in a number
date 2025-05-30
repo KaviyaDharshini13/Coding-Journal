@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        int n=82764;
+        int ld=0;
+        while(n>0)
+        {
+           ld=n%10;
+            n=n/10;
+        }
+        System.out.println(ld);
+    }
+}
