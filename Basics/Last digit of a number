@@ -1,0 +1,7 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        int n=483587;
+        System.out.println(n%10);
+    }
+}
