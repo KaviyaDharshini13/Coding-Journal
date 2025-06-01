@@ -1,0 +1,24 @@
+class Main{
+    public static void main(String[] args){
+        int n=6;
+        int sum=1;
+        int r=0;
+        for(int i=2;i<Math.sqrt(n);i++)
+        {
+            if(n%i==0)
+            {
+                r=n/i;
+                System.out.print(i+" ");
+                System.out.println(r);
+                sum=sum+i+r;
+            }
+        }System.out.println("sum:"+sum);
+if(sum==n)
+{
+System.out.println("perfect number");
+}
+else
+{
+System.out.println("not perfect");
+}
+}}
