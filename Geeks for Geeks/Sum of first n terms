@@ -1,0 +1,14 @@
+class Main {
+    public static void main(String[] args) {
+        long n=12;
+        long sum=0;
+        long b=3;
+        for(int i=1;i<=n;i++)
+        {
+            long a=(long)Math.pow(i,b);
+            sum=sum+a;
+      
+        }
+     System.out.println(sum);
+    }
+}
