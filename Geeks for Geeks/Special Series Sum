@@ -1,0 +1,13 @@
+class Main {
+    public static void main(String[] args) {
+        int n=5;
+        int sum=0;
+        int series=0;
+        for(int i=1;i<=n;i++)
+        {
+            sum=sum+i;
+            series=series+sum;
+        }
+     System.out.println(series);
+    }
+}
